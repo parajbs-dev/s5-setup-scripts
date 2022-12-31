@@ -2,7 +2,7 @@
 A collection for s5-node install and build scripts for windows10 / ubuntu22.04 / Debian9.2 and docker-start-script for debian12 / ubuntu2204.
 
 ## Version
-0.2.0
+0.3.0
 
 ## About S5 network
 

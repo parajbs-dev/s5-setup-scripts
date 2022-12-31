@@ -3,7 +3,7 @@ Description=S5-node daemon
 After=remote-fs.target nss-user-lookup.target
 
 [Service]
-ExecStart=/bin/bash -c "/opt/devs/S5/s5-node_start.sh"
+ExecStart=/bin/bash -c "/opt/devs/S5/s5-node_start.sh >> /opt/devs/S5/s5_log.txt"
 IgnoreSIGPIPE=false
 KillMode=process
 Restart=on-failure
